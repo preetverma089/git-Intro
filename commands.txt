@@ -66,10 +66,66 @@ git add . :  it add all files in staging area
   git commit -m “messageName”: it is used to commit with message and commit all changes to git, it is record of changes
 })
 
+git log: this commands for logs all commit that i done
 
 push command:
 git push: this command is used to push all changes on git (push local changes to remote)
-git push orign main: 
+git push orign main:  all the repo on git specific main repo to push that code 
+
+
+
+Now those commands for creating git repo from my code
+
+git init: 
+git remote add origin <Link> : this command basically for connecting my git repo to my folder 
+git remote -v (to verify remote) : this command for check my repo is connected or not 
+git branch (to check branch): 
+git branch -m main (to rename branch)
+git push origin main -u:  this is basicallty for setting like i have to work more time in this branch thats why we use this 
+
+
+git pull: this command is used for getting changed from remote to local branch 
+
+
+Git branches:
+
+git branch: to check we work on which branch
+git branch -m main (to rename branch)
+git checkout <branchName> to navigate to that branch
+git checkout -b <branchname> to create new branch
+git branch -d <branchName> to delete the branch
+
+
+merging code in two ways
+
+git diff <branchName>: to compare changes between two branches
+
+git merge <branchName>: to merge code between two branches
+
+
+second way: create pr(pull requests)
+
+
+Undoing changes:
+
+staged changes: those changes that are added but dont want commit we can use these commnds
+
+git reset <fileName>
+git reset (for all files)
+
+
+commit reset for single commit :
+git reset HEAD~1: this is for latest commit will be reset
+
+Commit reset for multiple commits: 
+
+git reset <commit hashCode>
+git reset —hard <commit hashCode>
+
+
+fork: this is for creating a rough copy of that project in your branch
+
+
 
 
 
