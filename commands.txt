@@ -1,0 +1,78 @@
+Git and Git Hub
+ 
+
+git: It is version control sytem for track changes
+
+it is populuar due to free and open source
+
+
+mazor things to  use this:
+
+1: track the history of the code 
+
+
+
+
+
+
+
+setup git first check config setup
+
+git config —list
+git config —global user.name “Name"
+git config —global user-email “email” 
+
+
+for local 
+
+git config —local user.name “name”
+git config — local user.email “email”
+
+
+
+Clone and status 
+
+Clone:
+
+git clone <repo_url>
+
+ls: it is used for checkinh all files that present in folder
+ls -a : this command is used for all files including hidden files
+status 
+
+
+git status  
+it gives us status of our files 
+
+It gives four types of status.
+
+Untracked: new file that does not exist on git.
+modified: those files in which changes have been made.
+Staged: file is ready to commit.
+unmodified: those files in which no changes have been made.
+
+
+
+
+after modification in any file we have two steps process
+
+to update changes on git it is 2 step process
+
+1:  Add (command: {
+git add <filename>: it is used for specific file
+git add . :  it add all files in staging area
+} )
+2: Commit (Command:{
+  git commit -m “messageName”: it is used to commit with message and commit all changes to git, it is record of changes
+})
+
+
+push command:
+git push: this command is used to push all changes on git (push local changes to remote)
+git push orign main: 
+
+
+
+
+
+
